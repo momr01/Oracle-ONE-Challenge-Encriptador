@@ -1,0 +1,309 @@
+body {
+  background-color: #d8dfe8;
+}
+
+.main-container {
+  display: flex;
+  width: 90vw;
+  height: 90vh;
+  margin: 0 auto;
+}
+
+.seccion-izquierda {
+  height: 100%;
+  width: 70%;
+}
+
+.logo-container {
+  height: 20%;
+}
+
+.logo-container svg {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.formulario-container {
+  height: 80%;
+}
+
+.formulario {
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+}
+
+.formulario-textarea {
+  height: 80%;
+  border-style: none;
+  border-color: transparent;
+  overflow: auto;
+  outline: none;
+  resize: none;
+  font-size: 25px;
+  width: 100%;
+  background-color: #d8dfe8;
+}
+
+.formulario-textarea::placeholder {
+  color: #0a3871;
+}
+
+.formulario-requisito-container {
+  margin-bottom: 3%;
+}
+
+.formulario-icono-vip {
+  background-color: black;
+  color: wheat;
+  width: 17px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100%;
+}
+
+.formulario-requisito {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #495057;
+  display: inline-block;
+}
+
+.formulario-ocultar-error {
+  display: none;
+}
+
+.formulario-mostrar-error {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: red;
+  display: inline-block;
+}
+
+.formulario-btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.formulario-btn-encriptar {
+  width: 40%;
+  height: 45px;
+  border-radius: 15px;
+  background-color: #0a3871;
+  color: #fff;
+}
+
+.formulario-btn-desencriptar {
+  width: 40%;
+  height: 45px;
+  border-radius: 15px;
+  background-color: #d8dfe8;
+  color: #0a3871;
+  border-color: #0a3871;
+}
+
+.seccion-derecha {
+  height: 100%;
+  width: 30%;
+}
+
+.resultado-container {
+  background-color: #fff;
+  box-shadow: 5px 5px 20px #495057;
+  width: 75%;
+  height: 95%;
+  margin: 40px auto;
+  border-radius: 25px;
+}
+
+.resultado-texto-container {
+  height: 90%;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.resultado-texto {
+  color: #495057;
+  font-size: 24px;
+  margin-top: 50px;
+  padding: 0 30px;
+}
+
+.resultado-imagen {
+  margin-top: 50%;
+  text-align: center;
+}
+
+.resultado-imagen-img {
+  width: 100px;
+}
+
+.resultado-imagen-titulo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.resultado-imagen-texto {
+  margin-top: 20px;
+}
+
+.resultado-texto-copiar {
+  text-decoration: underline;
+  color: blanchedalmond;
+}
+
+.resultado-btn-container {
+  height: 10%;
+}
+
+.resultado-btn {
+  width: 90%;
+  height: 45px;
+  border-radius: 15px;
+  background-color: #d8dfe8;
+  color: #0a3871;
+  border-color: #0a3871;
+  margin-left: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+/* responsive */
+
+/* tablet */
+@media screen and (max-width: 950px) {
+  .main-container {
+    display: block;
+  }
+  .seccion-izquierda {
+    width: 100%;
+    height: auto;
+  }
+  .logo-container {
+    height: 100px;
+  }
+
+  .logo-container svg {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .formulario {
+    padding-top: 50px;
+    width: 99%;
+  }
+
+  .formulario textarea {
+    max-width: 99%;
+    min-height: 250px;
+  }
+
+  .formulario-icono-vip {
+    margin-left: 10px;
+  }
+
+  .formulario-btn-encriptar,
+  .formulario-btn-desencriptar {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  .seccion-derecha {
+    width: 100%;
+    height: auto;
+  }
+  .resultado-container {
+    width: 100%;
+    min-height: 200px;
+    overflow: visible;
+  }
+  .resultado-imagen {
+    margin-top: 0;
+    padding: 0;
+  }
+  .resultado-imagen-texto {
+    margin-bottom: 50px;
+  }
+  .resultado-texto-container {
+    overflow: hidden;
+    min-height: 150px;
+  }
+  .resultado-texto {
+    margin-top: 5px;
+    font-size: 20px;
+    padding-top: 15px;
+  }
+  .resultado-btn-container {
+    margin-top: 10px;
+    min-height: 50px;
+  }
+  .resultado-btn {
+    width: 90%;
+    margin-left: calc(10% / 2);
+  }
+}
+
+/* celular */
+@media screen and (max-width: 480px) {
+  .main-container {
+    display: block;
+  }
+  .seccion-izquierda {
+    width: 100%;
+    height: auto;
+  }
+  .logo-container {
+    height: 100px;
+  }
+
+  .logo-container svg {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .formulario {
+    padding-top: 50px;
+    width: 99%;
+  }
+
+  .formulario textarea {
+    max-width: 99%;
+    min-height: 250px;
+  }
+
+  .formulario-icono-vip {
+    margin-left: 10px;
+  }
+  .formulario-btn-container {
+    flex-wrap: wrap;
+  }
+  .formulario-btn-encriptar,
+  .formulario-btn-desencriptar {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  .seccion-derecha {
+    width: 100%;
+    height: auto;
+  }
+  .resultado-container {
+    width: 90%;
+    min-height: 200px;
+    overflow: visible;
+  }
+  .resultado-imagen {
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+  .resultado-texto-container {
+    overflow: hidden;
+    min-height: 150px;
+  }
+  .resultado-texto {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  .resultado-btn-container {
+    margin-top: 10px;
+    min-height: 50px;
+  }
+}
