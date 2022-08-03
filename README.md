@@ -2,10 +2,18 @@
 
 ### Un simple pero poderoso encriptador / desencriptador
 
-_Desarrollado por completo con Javascript, este sencillo pero potente encriptador permitirá intercambiar mensajes cifrados con cualquiera que conozca las reglas!!!_
+Desarrollado por completo con Javascript, HTML y CSS, este sencillo pero potente encriptador permitirá intercambiar mensajes cifrados con cualquiera que conozca las reglas!!!
 
+La aplicación web permite, además, desencriptar los mensajes ocultos.
 
-<!-- CONTACT -->
+## GitHub Pages: [https://momr01.github.io/Oracle-ONE-Challenge-Encriptador/](https://momr01.github.io/Oracle-ONE-Challenge-Encriptador/)
+
+## Imágenes del proyecto:
+
+![Gral1](https://github.com/momr01/Oracle-ONE-Challenge-Encriptador/blob/main/img/proyecto-propio/gral1.PNG)
+* * *
+![Gral2](https://github.com/momr01/Oracle-ONE-Challenge-Encriptador/blob/main/img/proyecto-propio/gral2.PNG)
+
 ## Contacto
 
 Linkedin Profile - [https://www.linkedin.com/in/maximilianomontana/](https://www.linkedin.com/in/maximilianomontana/)
